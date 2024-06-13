@@ -30,7 +30,7 @@ def private_panel(_):
         ],
         [
             
-            InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=f"https://t.me/huntersourceض") , 
+            InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=f"https://t.me/huntersource") , 
         ],
     ]
     return buttons
