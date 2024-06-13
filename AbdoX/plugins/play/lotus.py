@@ -85,3 +85,14 @@ async def almortagel(client: Client, message: Message):
     url = f"https://t.me/yoipopl/{rl}"
     await client.send_audio(message.chat.id,url,caption="💚 ¦ تـم اختيـار استوري لـك")
 
+@app.on_message(filters.command(["فلم", "افلام"], ""))
+async def almortagel(client: Client, message: Message):
+    rl = random.randint(2,148)
+    url = f"https://t.me/gyigkk/{rl}"
+    await client.send_audio(message.chat.id,url,caption="💚 ¦ تـم اختيار الفيلم لك")
+
+@app.on_message(filters.command(["غنيلي", "اغنيه"], ""))
+async def almortagel(client: Client, message: Message):
+    rl = random.randint(2,148)
+    url = f"https://t.me/gukygn/{rl}"
+    await client.send_audio(message.chat.id,url,caption="💚 ¦ تـم اختيار الاغنيه لك")
